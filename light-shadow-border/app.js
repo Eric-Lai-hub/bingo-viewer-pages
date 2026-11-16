@@ -68,11 +68,11 @@ if(downloadRouting){
 }
 
 const appTourSteps={
- home:{image:'assets/app-home-android.jpg',alt:'光影边框 Android 首页，展示光影水印、背景模糊模板及底部导航。',platform:'模板首页 · Android 实际截图',frame:'phone',title:'先在首页，挑好想用的模板。',description:'光影水印、背景模糊等模板按类别排列，先看预览再进入编辑。底部还有视频专区和我的，照片和视频的入口一眼能分清。',points:['浏览每一类模板的成图预览。','点选模板后，从相册加入自己的照片。','视频水印从底部“视频专区”进入。'],path:'操作路径：首页 → 选择模板 → 相册选图'},
- editor:{image:'assets/app-editor-android.jpg',alt:'Android 编辑页中的海边照片，展示模糊背景、Nikon 参数以及底部比例选项。',platform:'边框编辑 · Android 实际截图',frame:'phone',title:'比例、Logo、参数，切换面板直接调。',description:'照片在上方预览，工具集中在底部。以截图中的背景模糊模板为例，可以切换原图、16:9、3:4 和 9:16，再继续调整 Logo、参数、主题、阴影与边距。',points:['选择比例，让作品适合横向或竖向分享。','型号、焦距、光圈、快门与 ISO 支持自动读取或手动修改。','照片下方的缩略图栏，可以随时切换和继续添加照片。'],path:'操作路径：编辑页 → 底部设置面板 → 查看预览'},
- batch:{image:'assets/app-batch-android.jpg',alt:'Android 编辑页中的横向照片，下方排列两张已选照片缩略图与添加按钮。',platform:'多图编辑 · Android 实际截图',frame:'phone',title:'同一组照片，一套边框批量做。',description:'已选照片出现在预览下方，点缩略图逐张检查效果，也可以用加号继续添加。为一组照片使用相同的模板设置，再通过右上角保存入口批量导出。',points:['多张照片放在同一编辑会话中，减少重复进入模板。','逐张切换检查画面，需要时添加或移除照片。','保存时按顺序处理，结果页显示成功、失败与未处理数量。'],path:'操作路径：多选照片 → 缩略图切换检查 → 右上角保存'},
- logo:{image:'assets/app-logo-panel-ios.jpg',alt:'iOS Logo 面板局部截图，展示内置 Canon、DJI、Insta360、Fujifilm、Sony 素材以及推荐、我的、大小选项。',platform:'Logo 面板 · iOS 局部截图',frame:'panel',title:'选内置 Logo，也能放自己的签名。',description:'Logo 面板提供内置素材选择，界面中有“推荐”“我的”“大小”入口。你可以切换品牌素材，或导入自己的 Logo，再调整到适合当前版式的尺寸。',points:['内置 Logo 可直接在素材列表里选择。','通过“我的”使用自己的素材，保持作品签名一致。','调整 Logo 大小；不同模板还提供对应的文字、参数和配方选项。'],path:'操作路径：编辑页 → Logo → 推荐 / 我的 / 大小'},
- quality:{image:'assets/app-quality-ios.jpg',alt:'iOS 导出画质设置，提供普通导出和高质量导出两种选项及用途说明。',platform:'导出画质 · iOS 实际截图',frame:'phone',title:'普通或高质量导出，按用途选择。',description:'在导出画质设置里选择普通导出或高质量导出。普通导出便于社交分享，高质量导出更适合存档、打印或后续编辑，文件也通常更大。',points:['普通导出会控制尺寸与压缩，便于日常分享。','高质量导出尽量保留原图尺寸、细节与元数据。','实际成图仍受源照片、模板和导出格式影响。'],path:'操作路径：我的 → 导出画质 → 选择导出模式'}
+ home:{image:'assets/app-home-ios.jpg',alt:'光影边框 iOS 首页，展示光影水印、背景模糊模板及底部导航。',platform:'模板首页 · iOS 实际截图',frame:'phone',title:'先在首页，挑好想用的模板。',description:'光影水印、背景模糊等模板按类别排列，先看预览再进入编辑。底部还有视频专区和我的，照片和视频的入口一眼能分清。',points:['浏览每一类模板的成图预览。','点选模板后，从相册加入自己的照片。','视频水印从底部“视频专区”进入。'],path:'操作路径：首页 → 选择模板 → 相册选图'},
+ editor:{image:'assets/app-editor-ios.jpg',alt:'iOS 编辑页中的山海摄影示例，展示模糊背景、Sony 参数水印以及底部比例选项。',platform:'边框编辑 · iOS 实际截图',frame:'phone',title:'比例、Logo、参数，切换面板直接调。',description:'照片在上方预览，工具集中在底部。以截图中的背景模糊模板为例，可以切换原图、16:9、3:4 和 9:16，再继续调整 Logo、参数、主题、阴影与边距。',points:['选择比例，让作品适合横向或竖向分享。','截图示例：SONY ILCE-7M4，35mm、F5.6、1/250s、ISO100，均来自演示 EXIF。','照片下方的缩略图栏，可以随时切换和继续添加照片。'],path:'操作路径：编辑页 → 底部设置面板 → 查看预览'},
+ batch:{image:'assets/app-batch-ios.jpg',alt:'iOS 编辑页中的城市摄影示例，显示 Fujifilm 参数水印与一组照片缩略图。',platform:'多图编辑 · iOS 实际截图',frame:'phone',title:'同一组照片，一套边框批量做。',description:'已选照片出现在预览下方，点缩略图逐张检查效果，也可以用加号继续添加。为一组照片使用相同的模板设置，再通过右上角保存入口批量导出。',points:['多张照片放在同一编辑会话中，减少重复进入模板。','逐张切换检查画面，需要时添加或移除照片。','保存时按顺序处理，结果页显示成功、失败与未处理数量。'],path:'操作路径：多选照片 → 缩略图切换检查 → 右上角保存'},
+ logo:{image:'assets/app-logo-ios.jpg',alt:'iOS 编辑器 Logo 面板，展示山海摄影示例、Sony 参数水印、品牌 Logo 与推荐、我的、大小选项。',platform:'Logo 面板 · iOS 实际截图',frame:'phone',title:'选内置 Logo，也能放自己的签名。',description:'Logo 面板提供内置素材选择，界面中有“推荐”“我的”“大小”入口。你可以切换品牌素材，或导入自己的 Logo，再调整到适合当前版式的尺寸。',points:['内置 Logo 可直接在素材列表里选择。','通过“我的”使用自己的素材，保持作品签名一致。','调整 Logo 大小；不同模板还提供对应的文字、参数和配方选项。'],path:'操作路径：编辑页 → Logo → 推荐 / 我的 / 大小'},
+ quality:{image:'assets/app-quality-ios.jpg?v=20261116-ios-exif',alt:'iOS 导出画质设置，提供普通导出和高质量导出两种选项及用途说明。',platform:'导出画质 · iOS 实际截图',frame:'phone',title:'普通或高质量导出，按用途选择。',description:'在导出画质设置里选择普通导出或高质量导出。普通导出便于社交分享，高质量导出更适合存档、打印或后续编辑，文件也通常更大。',points:['普通导出会控制尺寸与压缩，便于日常分享。','高质量导出尽量保留照片细节与拍摄信息。','实际成图仍受源照片、模板和导出格式影响。'],path:'操作路径：我的 → 导出画质 → 选择导出模式'}
 };
 const appTourTabs=[...document.querySelectorAll('[data-app-step]')];
 function selectAppTour(key){
@@ -80,7 +80,7 @@ function selectAppTour(key){
  appTourTabs.forEach(tab=>{const selected=tab.dataset.appStep===key;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;});
  document.getElementById('app-tour-panel').setAttribute('aria-labelledby','app-tab-'+key);
  const image=document.getElementById('tour-screen');image.src=step.image;image.alt=step.alt;
- const dimensions=step.frame==='panel'?[1125,900]:key==='quality'?[1206,2622]:[1080,2340];
+ const dimensions=[1206,2622];
  image.setAttribute('width',String(dimensions[0]));image.setAttribute('height',String(dimensions[1]));
  document.getElementById('tour-screen-link').href=step.image;
  document.getElementById('tour-screen-stage').dataset.frame=step.frame;
