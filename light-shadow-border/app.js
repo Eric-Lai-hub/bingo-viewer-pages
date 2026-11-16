@@ -22,3 +22,10 @@ document.getElementById('copy-name').addEventListener('click',async()=>{
  try{await navigator.clipboard.writeText('光影边框');output.textContent='已复制“光影边框”，请在应用市场搜索。';}
  catch{output.textContent='请在应用市场搜索：光影边框';}
 });
+
+const copyWechat=document.getElementById('copy-wechat');
+copyWechat.addEventListener('click',async()=>{
+ const output=document.getElementById('wechat-status');
+ try{await navigator.clipboard.writeText('dengziwl');output.textContent='已复制商务微信 dengziwl，欢迎添加联系。';}
+ catch{output.textContent='商务微信：dengziwl，可长按或选中微信号复制。';}
+});
